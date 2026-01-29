@@ -9,9 +9,9 @@ interface GalleryImage {
 
 const Gallery: React.FC = () => {
   const images: GalleryImage[] = [
-    { id: 1, src: "/img/foto2.jpg", alt: "Nosotros" },
-    { id: 2, src: "/img/foto1.jpg", alt: "Nosotros" },
-    { id: 3, src: "/img/foto3.jpg", alt: "Nosotros" },
+    { id: 1, src: "/img/foto2.JPG", alt: "Nosotros" },
+    { id: 2, src: "/img/foto1.JPG", alt: "Nosotros" },
+    { id: 3, src: "/img/foto3.JPG", alt: "Nosotros" },
   ];
 
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
