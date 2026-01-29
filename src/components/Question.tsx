@@ -48,6 +48,7 @@ const Question: React.FC<QuestionProps> = ({ onAnswered }) => {
             top: noButtonPosition.y > 0 ? `${noButtonPosition.y}px` : "auto",
           }}
           onMouseEnter={handleNoHover}
+          onClick={handleNoHover}
         >
           No
         </button>
