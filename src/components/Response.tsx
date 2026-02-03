@@ -25,7 +25,17 @@ const Response: React.FC = () => {
   return (
     <div className="respuesta">
       <h2>¡ME ENCANTAS! 💕</h2>
-      <p>Vístete hermoso mi vida, te recojo el 14.</p>
+      <p>
+        Vístete hermoso mi vida, nos vemos el viernes 20 para el{" "}
+        <a
+          href="https://festivalondas.com/wp-content/uploads/2025/11/OOTD_JQ.png"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Festival Ondas
+        </a>
+        .
+      </p>
       <p className="subtitle">Te amo ❤️</p>
     </div>
   );
